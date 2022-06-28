@@ -13,9 +13,9 @@ prerequisites:
 - Create a folder i.e. Script inside the config folder of your pihole
 - Place this script inside this folder
 - go inside the docker via terminal with: docker exec -it Pihole /bin/bash
-  - CD /etc/pihole/Script #or whatever you folder is named
+  - cd /etc/pihole/Script #or whatever you folder is named
   - chmod +x scriptname.sh # to make the script executable
-  - CD ~ #to return to home folder
+  - cd ~ #to return to home folder
   - /etc/pihole/Script/scriptname.sh #to run the script
 
 Whenever the Pihole docker restarts, you need to run this script again. You can do it in 2 ways;
